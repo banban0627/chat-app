@@ -1,24 +1,8 @@
 <div class="wrapper">
- <div class="side">
-  <div class="side-head">
-   <div class="user-name">
-    <a href="#">banban</a>
-   </div>
-   <div class="chat-room">
-    <a href="#">チャットを作成する</a>
-   </div>
+  <div class="side-bar">
+    <%= render "side_bar" %>
   </div>
-  <div class="side-main">
-   <div class="chat-name">
-    <a href="#">バンバンの部屋</a>
-   </div>
+  <div class="chat">
+    <%= render "main_chat" %>
   </div>
-  <%= render "side_bar" %>
- </div>
- <div class="main">
-  <div class="main-head"></div>
-  <div class="main-body"></div>
-  <div class="main-foot"></div>
-  <%= render "main_chat" %>
- </div>
 </div>
